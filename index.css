@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    margin-left: 200px;
+    width: 700px;
+}
+.Blog{
+    margin-left: 200px;
+    
+}
+
+.Nome{
+    margin: 50px 0px 0px 20px;
+   background: red;
+   padding: 5px 5px;
+}
+.Curso{
+    float: left;
+    width: 20vw;
+    margin: 1vh 1.25vw;
+    height: 200px;
+}
+
+
+
+    
+
+
+
+
+
+
