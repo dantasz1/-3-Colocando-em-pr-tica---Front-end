@@ -1,30 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
-    margin-left: 200px;
-    width: 700px;
-}
-.Blog{
-    margin-left: 200px;
-    
+
+html,
+body,
+main {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.Nome{
-    margin: 50px 0px 0px 20px;
-   background: red;
-   padding: 5px 5px;
+main {
+    margin: 0 auto;
+    max-width: 700px;
 }
-.Curso{
-    float: left;
-    width: 20vw;
-    margin: 1vh 1.25vw;
+
+#blog {
+    text-align: center;
+}
+
+#infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#infos>div {
+    background: red;
+    width: 310px;
+    margin-top: 40px;
+    display: block;
+    height: 20px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+/*=============================*/
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cards>div {
+    background: blue;
+    width: 310px;
     height: 200px;
+    margin-top: 40px;
+    display: block;
+    color: #fff;
+    padding: 5px 10px;
 }
 
+#cards > div:nth-child(2) , #cards > div:nth-child(3)  {
+
+background: rgb(228, 210, 9);
+color: black
+}
 
 
     
